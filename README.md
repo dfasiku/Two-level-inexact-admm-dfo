@@ -12,9 +12,9 @@ The method supports both **smooth and nonsmooth trust-region subproblems** and i
 ## External DFO Solvers
 This framework interfaces with external derivative-free optimization (DFO) solvers that must be installed separately.
 These solvers are not included in this repository and remain under their respective licenses.
-• DFO-Algorithm
+• DFO Algorithm
 Repository: https://github.com/TheClimateCorporation/dfo-algorithm
-• DFTRNS (Derivative-Free Trust-Region Nonlinear Solver)
+• Advanced DFO-TRNS Algorithm (Advanced DFO trust-region algorithm for nonsmooth problems)
 Repository: https://github.com/DerivativeFreeLibrary/DFTRNS
 
 ##  Python Version
