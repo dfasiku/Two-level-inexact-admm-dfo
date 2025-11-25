@@ -261,7 +261,7 @@ def two_level_inexact_admm_dfo(N, A_consesus, B, f_list, g, epsilon, c, a, max_o
         # Update z_prev for the next outer iteration
         z_prev = z
 
-        lambda_ = lambda_ + beta * z
+       
         
         lambda_ = np.clip(lambda_ + beta * z, -500000000000.0, 5000000000000.0)  # One-line projection
 
@@ -308,3 +308,4 @@ def two_level_inexact_admm_dfo(N, A_consesus, B, f_list, g, epsilon, c, a, max_o
     }
 
     return final_results, history, outer_iter_count, inner_iter_count
+
